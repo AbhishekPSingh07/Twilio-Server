@@ -1,0 +1,343 @@
+{"intents":[
+    {
+        "tag": "Greetings",
+        "patterns": [
+            "Hello",
+            "Hi",
+            "Hey",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Hi there",
+            "Hello bot",
+            "Greetings",
+            "What's up",
+            "yo",
+            "Howdy"
+        ],
+        "responses": [
+            "Hello! Thank you for calling Pruden Pro. I'm Noah, and I'm here to assist you. How may I help you today?",
+            "Hi there! Welcome to Pruden Pro. I'm Noah, and I'm ready to assist you. What can I do for you?",
+            "Hey! You've reached Pruden Pro, and I'm Noah. How can I make your day better?",
+            "Good [morning/afternoon/evening]! This is Noah from Pruden Pro. How can I brighten your day?",
+            "Hi! Thanks for reaching out to Pruden Pro. I'm Noah, and I'm here to help. What brings you here today?",
+            "Yo! It's Noah from Pruden Pro. How can I assist you?",
+            "Howdy! Welcome to Pruden Pro. I'm Noah, and I'm here to make your experience great. What can I do for you?",
+            "Greetings! This is Noah at Pruden Pro. How can I make your day awesome today?",
+            "Hello, bot! Just kidding. I'm Noah from Pruden Pro, and I'm here to help. What can I do for you?",
+            "Hi there! Thanks for calling Pruden Pro. I'm Noah, and I'm at your service. How may I assist you today?"
+        ]
+    },
+    {
+        "tag": "Reservation",
+        "patterns": [
+            "Book a table",
+            "Make a reservation",
+            "Table reservation",
+            "Book a table for 3 on Monday",
+            "Reservation for {number_of_people} on {date_time}"
+        ],
+        "responses": [
+            "Absolutely, we'd love to reserve a table for you! For how many people and on which date and time would you like to make the reservation?",
+            "Great choice! Let's get that table reserved for you. Could you please let me know the date, time, and how many people will be joining you?",
+            "Certainly! Your table reservation is in the works. When are you planning to dine with us, and for how many guests?",
+            "Sure thing! To secure your table for 3 on Monday, could you specify the exact date and time you have in mind?"
+        ]
+    },      
+    {
+        "tag": "Farewell",
+        "patterns": ["Goodbye", "See you later", "Bye", "Until next time", "Farewell"],
+        "responses": [
+            "Goodbye! If you ever need assistance again, don't hesitate to reach out. Have a wonderful day!",
+            "See you later! If you have more questions in the future, feel free to drop by. Take care!",
+            "Bye! Wishing you a fantastic day ahead. If there's anything else you need, we're here for you!",
+            "Until next time! If there's anything else we can do for you, just let us know. Have a great one!",
+            "Farewell! If you ever want to chat or have inquiries, we'll be here. Enjoy the rest of your day!"
+        ]
+    },    
+    {
+        "tag": "Location",
+        "patterns": [
+            "Where are you located?",
+            "What's your address?",
+            "Tell me your location",
+            "Where can I find you?"
+        ],
+        "responses": [
+            "Our Restaurant is located at 123 Barber Street London.",
+            "You can find us at 123 Barber Street London. We look forward to welcoming you!"
+        ]
+    },  
+    {
+        "tag": "BusinessHours",
+        "patterns": [
+            "What are your restaurant hours?",
+            "When is your restaurant open?",
+            "Tell me your opening hours",
+            "Business hours for the restaurant"
+        ],
+        "responses": [
+            "Our restaurant is open seven days a week from 11:00 A.M. to 10:00 P.M.",
+            "You can visit us any day of the week! We're open from 11:00 A.M. to 10:00 P.M."
+        ]
+    },    
+    {
+        "tag": "SpecialRequests",
+        "patterns": [
+            "I have a special request",
+            "Special requirements",
+            "Can you accommodate {special_request}?"
+        ],
+        "responses": [
+            "Of course, we'll do our best to accommodate your special request. What do you need?",
+            "Certainly! Please let me know your special request, and we'll make the arrangements."
+        ]
+    },
+    {
+        "tag": "SpecialRequest",
+        "patterns": ["Window Seat", "High Chair", "Birthday Celebration", "Quiet Area"],
+        "responses": [
+            "Certainly! We'll do our best to accommodate your request for a window seat.",
+            "If you prefer a quiet area, we can arrange a more secluded spot for you. Just let us know your preference when making the reservation."
+        ]
+    },  
+    {
+        "tag": "ConfirmationCancellation",
+        "patterns": [
+            "Confirm my reservation",
+            "Cancel my reservation",
+            "Change reservation",
+            "Reschedule my booking",
+            "Confirm my takeaway order",
+            "Cancel my takeaway order",
+            "Change takeaway order",
+            "Reschedule my takeaway order"
+        ],
+        "responses": [
+            "Certainly! Let me confirm/cancel/reschedule that for you. Can you please provide your reservation/takeaway order details?"
+        ]
+    },
+    {
+        "tag": "ContactInformation",
+        "patterns": [
+            "Provide contact information",
+            "Give contact details",
+            "Share my information",
+            "Contact details for reservation",
+            "Contact details for takeaway order"
+        ],
+        "responses": [
+            "Sure, I'll need your contact information. Can you please provide your name, phone number, and email (optional)?",
+            "Certainly! To assist you better, may I have your name and contact number, please?"
+        ]
+    },
+    {
+        "tag": "MenuInquiry",
+        "patterns": [
+            "Tell me about the menu",
+            "What's on the menu",
+            "Menu options",
+            "Special items",
+            "Any gluten-free options",
+            "Vegan options"
+        ],
+        "responses": [
+            "Our menu includes a variety of options such as {menu_items}. We also have gluten-free and vegan options. Anything specific you're interested in?"
+        ]
+    },
+    {
+        "tag": "PreferencesRestrictions",
+        "patterns": [
+            "I have dietary preferences",
+            "Any allergy-friendly options",
+            "Can you customize my order",
+            "No {restriction}"
+        ],
+        "responses": [
+            "Certainly! We can accommodate dietary preferences and allergies. Please let us know your specific requirements, and we'll tailor your order accordingly."
+        ]
+    },
+    {
+        "tag": "Quantity",
+        "patterns": [
+            "I'd like {quantity}",
+            "Large {item}",
+            "Small {item}",
+            "Meal for one",
+            "Shareable {platter}"
+        ],
+        "responses": [
+            "Got it! You'd like {quantity} of {item}. Anything else you'd like to add to your order?"
+        ]
+    },
+    {
+        "tag": "DeliveryOptions",
+        "patterns": [
+            "ASAP delivery",
+            "Delivery later",
+            "Delivery today",
+            "Delivery tomorrow",
+            "Pickup option"
+        ],
+        "responses": [
+            "Sure, we offer ASAP delivery, scheduled delivery for later, and pickup options. What would you prefer?"
+        ]
+    },
+    {
+        "tag": "PaymentMethods",
+        "patterns": [
+            "Payment options",
+            "How can I pay",
+            "Acceptable payment methods"
+        ],
+        "responses": [
+            "We accept various payment methods, including credit, contactless, debit, crypto, PayPal, and cash. You can choose the option that suits you best."
+        ]
+    },
+    {
+        "tag": "Feedback",
+        "patterns": ["I have feedback", "Provide feedback", "Feedback", "How can I give feedback?"],
+        "responses": ["We appreciate your feedback! Feel free to share your thoughts with us on our website or social media."]
+    },{
+        "tag": "create_note",
+        "patterns": ["Create a note", "Add a note", "Take a note", "Write a note"],
+        "responses": ["'"]
+    },
+    {
+        "tag": "add_note",
+        "patterns": ["Note: {note_text}"],
+        "responses": [""]
+    },
+    {
+        "tag": "view_note",
+        "patterns": ["View notes", "Show my notes", "List notes"],
+        "responses": [""]
+    },{
+        "tag": "view_note",
+        "patterns": ["View appointment", "Show my appointment", "List appointment"],
+        "responses": [""]
+    },{
+        "tag": "0",
+        "patterns": ["Book an appointment for 12 AM", "Schedule an appointment at midnight"],
+        "responses": []
+    },
+    {
+        "tag": "1",
+        "patterns": ["Book an appointment for 1 AM", "Schedule an appointment at 1"],
+        "responses": [""]
+    },
+    {
+        "tag": "2",
+        "patterns": ["Book an appointment for 2 AM", "Schedule an appointment at 2"],
+        "responses": [""]
+    },
+    {
+        "tag": "3",
+        "patterns": ["Book an appointment for 3 AM", "Schedule an appointment at 3"],
+        "responses": [""]
+    },
+    {
+        "tag": "4",
+        "patterns": ["Book an appointment for 4 AM", "Schedule an appointment at 4"],
+        "responses": [""]
+    },
+    {
+        "tag": "5",
+        "patterns": ["Book an appointment for 5 AM", "Schedule an appointment at 5"],
+        "responses": [""]
+    },
+    {
+        "tag": "6",
+        "patterns": ["Book an appointment for 6 AM", "Schedule an appointment at 6"],
+        "responses": [""]
+    },
+    {
+        "tag": "7",
+        "patterns": ["Book an appointment for 7 AM", "Schedule an appointment at 7"],
+        "responses": [""]
+    },
+    {
+        "tag": "8",
+        "patterns": ["Book an appointment for 8 AM", "Schedule an appointment at 8"],
+        "responses": [""]
+    },
+    {
+        "tag": "9",
+        "patterns": ["Book an appointment for 9 AM", "Schedule an appointment at 9"],
+        "responses": [""]
+    },
+    {
+        "tag": "10",
+        "patterns": ["Book an appointment for 10 AM", "Schedule an appointment at 10"],
+        "responses": [""]
+    },
+    {
+        "tag": "11",
+        "patterns": ["Book an appointment for 11 AM", "Schedule an appointment at 11"],
+        "responses": [""]
+    },
+    {
+        "tag": "12",
+        "patterns": ["Book an appointment for 12 PM", "Schedule an appointment at noon"],
+        "responses": [""]
+    },
+    {
+        "tag": "13",
+        "patterns": ["Book an appointment for 1 PM", "Schedule an appointment at 1"],
+        "responses": [""]
+    },
+    {
+        "tag": "14",
+        "patterns": ["Book an appointment for 2 PM", "Schedule an appointment at 2"],
+        "responses": [""]
+    },
+    {
+        "tag": "15",
+        "patterns": ["Book an appointment for 3 PM", "Schedule an appointment at 3"],
+        "responses": [""]
+    },
+    {
+       "tag": "16",
+        "patterns": ["Book an appointment for 4 PM", "Schedule an appointment at 4"],
+        "responses": [""]
+    },
+    {
+        "tag": "17",
+        "patterns": ["Book an appointment for 5 PM", "Schedule an appointment at 5"],
+        "responses": [""]
+    },
+    {
+        "tag": "18",
+        "patterns": ["Book an appointment for 6 PM", "Schedule an appointment at 6"],
+        "responses": [""]
+    },
+    {
+        "tag": "19",
+        "patterns": ["Book an appointment for 7 PM", "Schedule an appointment at 7"],
+        "responses": [""]
+    },
+    {
+        "tag": "20",
+        "patterns": ["Book an appointment for 8 PM", "Schedule an appointment at 8"],
+        "responses": [""]
+    },
+    {
+        "tag": "21",
+        "patterns": ["Book an appointment for 9 PM", "Schedule an appointment at 9"],
+        "responses": [""]
+    },
+    {
+        "tag": "22",
+        "patterns": ["Book an appointment for 10 PM", "Schedule an appointment at 10"],
+        "responses": [""]
+    },
+    {
+        "tag": "23",
+        "patterns": ["Book an appointment for 11 PM", "Schedule an appointment at 11"],
+        "responses": [""]
+    },{
+        "tag": "CheckAvailability",
+        "patterns": ["Are there any available slots?", "Check for empty slots", "What times are open?", "Are there any appointments available?", "Available time slots"],
+        "responses": [""]
+    }
+]}

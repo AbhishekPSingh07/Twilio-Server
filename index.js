@@ -43,7 +43,6 @@ wss.on('connection', (ws)=>{
                 console.log('starting the media server');
                 break;
             case "media":
-                console.log('Recieving audio data');
                 recognizeStream.write(msg.media.payload);
                 break;
             case "stop":

@@ -1,0 +1,7 @@
+Flask
+Gunicorn
+nltk
+numpy
+tensorflow
+Flask-Sockets==0.2.1
+google-cloud-speech==2.0.1
