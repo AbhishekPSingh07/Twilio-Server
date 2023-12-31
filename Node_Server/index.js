@@ -8,7 +8,7 @@ const speech = require('@google-cloud/speech');
 const fs = require('fs');
 const client = new speech.SpeechClient();
 
-process.env.GOOGLE_APPLICATION_CREDENTIALS = "omnibot.json"
+process.env.GOOGLE_APPLICATION_CREDENTIALS = "../api_key.json"
 
 const request = {
     config:{

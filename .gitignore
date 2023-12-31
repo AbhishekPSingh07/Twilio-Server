@@ -2,5 +2,5 @@
 node_modules/
 package-lock.json
 .env
-ai_bot.json
+api.json
 __pycache__
